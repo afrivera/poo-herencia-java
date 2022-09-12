@@ -4,6 +4,8 @@ import org.afrivera.pooherencia.*;
 
 public class EjemploHerencia {
     public static void main(String[] args) {
+
+        System.out.println("==========Creando la Instancia Alumno==========");
         Alumno alumno  = new Alumno();
         alumno.setNombre("Andres");
         alumno.setApellido("Rivera");
@@ -12,6 +14,7 @@ public class EjemploHerencia {
         alumno.setNotaHistoria(6.3);
         alumno.setNotaMatematica(4.9);
 
+        System.out.println("\n==========Creando la Instancia AlumnoInternacional==========");
         AlumnoInternacional alumnoInt = new AlumnoInternacional();
         alumnoInt.setNombre("Peter");
         alumnoInt.setApellido("Parker");
@@ -23,6 +26,7 @@ public class EjemploHerencia {
         alumnoInt.setNotaHistoria(5.8);
         alumnoInt.setNotaMatematica(6.5);
 
+        System.out.println("\n==========Creando la Instancia Profesor==========");
         Profesor profesor = new Profesor();
         profesor.setNombre("Andrea");
         profesor.setApellido("Muelas");

@@ -3,6 +3,7 @@ package org.afrivera.pooherencia;
 public class Persona {
     // cuando el atributo es privado no se puede heredar con protected sí.
     // lo recomendable es dejarlo siempre private y acceder o asignar con setters y getters
+    // el protected solo es accesible en el mismo package o herencia
     private String nombre;
     private String apellido;
     private int edad;
